@@ -4,6 +4,26 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 import ViteSitemapPlugin from 'vite-plugin-sitemap'
 
+// Define your routes
+const routes = [
+  '/',
+  '/components',
+  '/components/button',
+  '/components/checkbox',
+  '/components/input', 
+  '/components/card',
+  '/components/navigation-menu',
+  '/components/avatar',
+  '/components/badge',
+  '/components/alert',
+  '/components/tabs',
+  '/components/progress',
+  '/components/switch',
+  '/components/slider',
+  '/icons',
+  '/docs'
+];
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
@@ -14,8 +34,11 @@ export default defineConfig(({ mode }) => ({
     react(),
     ViteSitemapPlugin({
       hostname: 'https://l1ar.vercel.app',
+      routes: routes,
       changefreq: 'weekly',
       priority: 0.7,
+      lastmod: new Date(),
+      readable: true,
     }),
     mode === 'development' &&
     componentTagger(),
