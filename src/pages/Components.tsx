@@ -5,8 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { ComponentsSidebar } from "@/components/components-sidebar";
-import { MousePointer, SquareCheck, Type, CreditCard, Navigation, Palette } from "lucide-react";
-import { AlertTriangle } from "lucide-react";
+import { MousePointer, SquareCheck, Type, CreditCard, Navigation, Palette, AlertTriangle, Calendar, BarChart3, FileText, Menu, MousePointer2, Table, Layers, MessageSquare, HelpCircle, Sidebar, Loader, Bell, Zap } from "lucide-react";
 
 const components = [
   {
@@ -92,10 +91,164 @@ const components = [
     description: "An input where the user selects a value from within a given range.",
     icon: MousePointer,
     category: "Form"
+  },
+  {
+    name: "Calendar",
+    slug: "calendar",
+    description: "A date field component that allows users to enter and edit date.",
+    icon: Calendar,
+    category: "Form"
+  },
+  {
+    name: "Chart",
+    slug: "chart",
+    description: "Recharts components for data visualization.",
+    icon: BarChart3,
+    category: "Data"
+  },
+  {
+    name: "Form",
+    slug: "form",
+    description: "Building forms with React Hook Form and Zod.",
+    icon: FileText,
+    category: "Form"
+  },
+  {
+    name: "Textarea",
+    slug: "textarea",
+    description: "Displays a form textarea or a component that looks like a textarea.",
+    icon: Type,
+    category: "Form"
+  },
+  {
+    name: "Radio Group",
+    slug: "radio-group",
+    description: "A set of checkable buttons where no more than one can be checked at a time.",
+    icon: SquareCheck,
+    category: "Form"
+  },
+  {
+    name: "Select",
+    slug: "select",
+    description: "Displays a list of options for the user to pick from—triggered by a button.",
+    icon: Menu,
+    category: "Form"
+  },
+  {
+    name: "Dialog",
+    slug: "dialog",
+    description: "A window overlaid on either the primary window or another dialog window.",
+    icon: Layers,
+    category: "Overlay"
+  },
+  {
+    name: "Dropdown Menu",
+    slug: "dropdown-menu",
+    description: "Displays a menu to the user — such as a set of actions or functions — triggered by a button.",
+    icon: Menu,
+    category: "Overlay"
+  },
+  {
+    name: "Popover",
+    slug: "popover",
+    description: "Displays rich content in a portal, triggered by a button.",
+    icon: MessageSquare,
+    category: "Overlay"
+  },
+  {
+    name: "Table",
+    slug: "table",
+    description: "A responsive table component.",
+    icon: Table,
+    category: "Data"
+  },
+  {
+    name: "Accordion",
+    slug: "accordion",
+    description: "A vertically stacked set of interactive headings that each reveal a section of content.",
+    icon: Layers,
+    category: "Layout"
+  },
+  {
+    name: "Alert Dialog",
+    slug: "alert-dialog",
+    description: "A modal dialog that interrupts the user with important content and expects a response.",
+    icon: AlertTriangle,
+    category: "Overlay"
+  },
+  {
+    name: "Carousel",
+    slug: "carousel",
+    description: "A carousel with motion and swipe built using Embla.",
+    icon: Navigation,
+    category: "Layout"
+  },
+  {
+    name: "Command",
+    slug: "command",
+    description: "Fast, composable, unstyled command menu for React.",
+    icon: MousePointer2,
+    category: "Navigation"
+  },
+  {
+    name: "Context Menu",
+    slug: "context-menu",
+    description: "Displays a menu to the user — triggered by a right click.",
+    icon: MousePointer2,
+    category: "Overlay"
+  },
+  {
+    name: "Hover Card",
+    slug: "hover-card",
+    description: "For sighted users to preview content available behind a link.",
+    icon: HelpCircle,
+    category: "Overlay"
+  },
+  {
+    name: "Menubar",
+    slug: "menubar",
+    description: "A visually persistent menu common in desktop applications.",
+    icon: Menu,
+    category: "Navigation"
+  },
+  {
+    name: "Sheet",
+    slug: "sheet",
+    description: "Extends the Dialog component to display content that complements the main content.",
+    icon: Sidebar,
+    category: "Overlay"
+  },
+  {
+    name: "Skeleton",
+    slug: "skeleton",
+    description: "Use to show a placeholder while content is loading.",
+    icon: Loader,
+    category: "Feedback"
+  },
+  {
+    name: "Toast",
+    slug: "toast",
+    description: "A succinct message that is displayed temporarily.",
+    icon: Bell,
+    category: "Feedback"
+  },
+  {
+    name: "Tooltip",
+    slug: "tooltip",
+    description: "A popup that displays information related to an element when hovered.",
+    icon: HelpCircle,
+    category: "Overlay"
+  },
+  {
+    name: "Toggle",
+    slug: "toggle",
+    description: "A two-state button that can be either on or off.",
+    icon: Zap,
+    category: "Form"
   }
 ];
 
-const categories = ["All", "Form", "Layout", "Navigation", "Display", "Feedback"];
+const categories = ["All", "Form", "Layout", "Navigation", "Display", "Feedback", "Data", "Overlay"];
 
 const Components = () => {
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);

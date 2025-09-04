@@ -78,10 +78,274 @@ const componentsList = [
     slug: "slider",
     category: "Form",
     hasExamples: true
+  },
+  {
+    name: "Calendar",
+    slug: "calendar",
+    category: "Form",
+    hasExamples: true
+  },
+  {
+    name: "Chart",
+    slug: "chart",
+    category: "Data",
+    hasExamples: true
+  },
+  {
+    name: "Form",
+    slug: "form",
+    category: "Form",
+    hasExamples: true
+  },
+  {
+    name: "Textarea",
+    slug: "textarea",
+    category: "Form",
+    hasExamples: true
+  },
+  {
+    name: "Radio Group",
+    slug: "radio-group",
+    category: "Form",
+    hasExamples: true
+  },
+  {
+    name: "Select",
+    slug: "select",
+    category: "Form",
+    hasExamples: true
+  },
+  {
+    name: "Dialog",
+    slug: "dialog",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Dropdown Menu",
+    slug: "dropdown-menu",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Popover",
+    slug: "popover",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Table",
+    slug: "table",
+    category: "Data",
+    hasExamples: true
+  },
+  {
+    name: "Accordion",
+    slug: "accordion",
+    category: "Layout",
+    hasExamples: true
+  },
+  {
+    name: "Alert Dialog",
+    slug: "alert-dialog",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Carousel",
+    slug: "carousel",
+    category: "Layout",
+    hasExamples: true
+  },
+  {
+    name: "Command",
+    slug: "command",
+    category: "Navigation",
+    hasExamples: true
+  },
+  {
+    name: "Context Menu",
+    slug: "context-menu",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Hover Card",
+    slug: "hover-card",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Menubar",
+    slug: "menubar",
+    category: "Navigation",
+    hasExamples: true
+  },
+  {
+    name: "Sheet",
+    slug: "sheet",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Skeleton",
+    slug: "skeleton",
+    category: "Feedback",
+    hasExamples: true
+  },
+  {
+    name: "Toast",
+    slug: "toast",
+    category: "Feedback",
+    hasExamples: true
+  },
+  {
+    name: "Tooltip",
+    slug: "tooltip",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Toggle",
+    slug: "toggle",
+    category: "Form",
+    hasExamples: true
+  },
+  {
+    name: "Calendar",
+    slug: "calendar",
+    category: "Form",
+    hasExamples: true
+  },
+  {
+    name: "Chart",
+    slug: "chart",
+    category: "Data",
+    hasExamples: true
+  },
+  {
+    name: "Form",
+    slug: "form",
+    category: "Form",
+    hasExamples: true
+  },
+  {
+    name: "Textarea",
+    slug: "textarea",
+    category: "Form",
+    hasExamples: true
+  },
+  {
+    name: "Radio Group",
+    slug: "radio-group",
+    category: "Form",
+    hasExamples: true
+  },
+  {
+    name: "Select",
+    slug: "select",
+    category: "Form",
+    hasExamples: true
+  },
+  {
+    name: "Dialog",
+    slug: "dialog",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Dropdown Menu",
+    slug: "dropdown-menu",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Popover",
+    slug: "popover",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Table",
+    slug: "table",
+    category: "Data",
+    hasExamples: true
+  },
+  {
+    name: "Accordion",
+    slug: "accordion",
+    category: "Layout",
+    hasExamples: true
+  },
+  {
+    name: "Alert Dialog",
+    slug: "alert-dialog",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Carousel",
+    slug: "carousel",
+    category: "Layout",
+    hasExamples: true
+  },
+  {
+    name: "Command",
+    slug: "command",
+    category: "Navigation",
+    hasExamples: true
+  },
+  {
+    name: "Context Menu",
+    slug: "context-menu",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Hover Card",
+    slug: "hover-card",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Menubar",
+    slug: "menubar",
+    category: "Navigation",
+    hasExamples: true
+  },
+  {
+    name: "Sheet",
+    slug: "sheet",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Skeleton",
+    slug: "skeleton",
+    category: "Feedback",
+    hasExamples: true
+  },
+  {
+    name: "Toast",
+    slug: "toast",
+    category: "Feedback",
+    hasExamples: true
+  },
+  {
+    name: "Tooltip",
+    slug: "tooltip",
+    category: "Overlay",
+    hasExamples: true
+  },
+  {
+    name: "Toggle",
+    slug: "toggle",
+    category: "Form",
+    hasExamples: true
   }
 ];
 
-const categories = ["Form", "Layout", "Navigation", "Display", "Feedback"];
+const categories = ["Form", "Layout", "Navigation", "Display", "Feedback", "Data", "Overlay"];
 
 interface ComponentsSidebarProps {
   isCollapsed: boolean;
