@@ -34,7 +34,6 @@ export default defineConfig(({ mode }) => ({
     react(),
     ViteSitemapPlugin({
       hostname: 'https://l1ar.vercel.app',
-      routes: routes,
       changefreq: 'weekly',
       priority: 0.7,
       lastmod: new Date(),
